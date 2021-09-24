@@ -1,0 +1,89 @@
+.Menu{
+    width: 20%;
+    max-width: 210px;
+    min-width: 200px;
+    height: 100%;
+    background-color: white;
+    color: #161e2e;
+    border-right: 1px solid lightgray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 5px 0 5px;
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+}
+
+.dashboard-title{
+    font-size: 25px;
+    display: flex;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+.dashboard-title .DashIcon{
+    width: 25px;
+    height: 25px;
+    transform: translateY(20%);
+    margin-right:10px;
+}
+
+.iconAdd{
+    color: white;
+}
+
+.newTech{
+    font-size: 13px !important;
+}
+
+.btn-menu{
+    margin: 10px 0 10px 0 !important; 
+    width: 94%;
+}
+
+.sub-title-menu{
+    font-size: 18px;
+    margin: 10px 0 5px 0;
+}
+
+.tarefas-menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tipos-tarefas{
+    width: 100%;
+}
+
+.types-tarefas{
+    text-align: start;
+    font-size: 14px;
+    margin: 7px 0 7px 0px;
+    color: #3f4958;
+    width: 95%;
+    padding: 0 0 0 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.types-tarefas:hover{
+    background-color: #e1effd;
+    border-radius: 6px;
+    color: #4d6093;
+}
+
+.sair{
+    position: absolute !important;
+    bottom: 0;
+    width: 160px;
+}
+
+@media (max-width: 768px){
+    .sumir{
+        display: none;
+    }
+}

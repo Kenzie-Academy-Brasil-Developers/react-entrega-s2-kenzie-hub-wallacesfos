@@ -1,0 +1,43 @@
+.App-header{
+    background-color: #ecf1f8;
+}
+
+.dashboard{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.vazio{
+    width: 300px;
+}
+
+.Menu-horizontal{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .vazio{
+        display: none;
+    }
+    .dashboard{
+        flex-direction: column;
+    }
+    .Menu-horizontal{
+        background-color: white;
+        width: 100%;
+        color: #3f4958;
+        padding: 7px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .iconeHamburguer{
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+
+    #checkboxes{
+        display: none;
+    }
+
+}

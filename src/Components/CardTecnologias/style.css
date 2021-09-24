@@ -1,0 +1,28 @@
+
+.tecnologias-renderization{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 160px;
+    height: 220px;
+    background-color: white;
+    color: black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 9px 5px rgba(0,0,0,0.76); 
+    box-shadow: 5px 5px 9px 5px rgba(0,0,0,0.76);
+}
+
+.h4{
+    font-size: 18px;
+}
